@@ -1,5 +1,5 @@
 #Write a program to input week number and print week day.
-x=str(input("Enter week number\n"))
+x=int(input("Enter week number\n"))
 if( x==1):
   print("Sunday")
 elif(x==2):
