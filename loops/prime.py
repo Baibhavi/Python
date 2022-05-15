@@ -2,7 +2,7 @@
 
 x=int(input("Enter the number to be checked "))
 if x>1:
-    for i in range (2,x-1):
+    for i in range (2,x):
         if x%i == 0:
             print(x,"is not prime")
         else : 
