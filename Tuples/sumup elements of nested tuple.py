@@ -15,5 +15,5 @@ for i in range(x):
 print("Tuple 2 = ",tpl2)
 print("The sum of the elements of tuple 2 = ",sum1)
 #using function
-sum2=sum(tpl2)
+sum2=sum(tpl1)
 print(sum2)
