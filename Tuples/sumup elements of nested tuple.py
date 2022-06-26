@@ -17,3 +17,12 @@ print("The sum of the elements of tuple 2 = ",sum1)
 #using function
 sum2=sum(tpl1)
 print(sum2)
+
+#when tuple is given -- tpl=((1,),(2,),(3,),(4,),(5,))
+tpl=((1,),(2,),(3,),(4,),(5,))
+sum=0
+for i in range(5):
+    for j in range(1):
+        x=tpl[i][j]
+        sum+=x
+print(sum)        
